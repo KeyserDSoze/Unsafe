@@ -14,7 +14,7 @@ namespace Unsafe.Base
             //int* pointer = &subClass.Hello;
             //int* pointer = &value;
             #endregion
-            *pointer *= *pointer;
+            *pointer *= *pointer; //the *pointer contains the value in memory of the object
             Console.WriteLine(*pointer);
             //Console.WriteLine(pointer);
         }
