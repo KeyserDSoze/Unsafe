@@ -9,6 +9,7 @@ namespace Unsafe.App
         {
             int sample = 5;
             Example.Test(&sample);
+            //&sample contains the pointer to stack
             Console.WriteLine(sample);
             Console.ReadLine();
         }
